@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: black;
 }
 
 .containerglobal {
@@ -14,12 +15,14 @@ body {
     border: solid black;
     margin: 5px;
     color: white;
-    text-align: right;
+    text-align: center;
     padding-right: 15px;
+    font-family: Mansalva;
+    font-size: 50px;
 }
 
 .container {
-    background-color: green;
+    background-color: black;
     margin: 5px;
     border-radius: 6px;
     border: solid black;
@@ -28,7 +31,6 @@ body {
     display: block;
 }
 .content {
-    border: solid white;
     border-radius: 6px;
     width: 20%;
     height: 100px;
@@ -42,16 +44,37 @@ body {
     background: url(/images/altadef.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .cb01 {
     background: url(images/cb01.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .gds {
     background: url(images/gds.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
+}
+.fpt {
+    background: url(images/fpt.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.shd {
+    background: url(images/shd.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.tf {
+    background: url(images/tf.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 .footer {
