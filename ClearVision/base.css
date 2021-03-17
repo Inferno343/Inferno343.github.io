@@ -1,0 +1,362 @@
+/* BETTER DISCORD SETTINGS */
+
+.bd-addon-card.settings-closed {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.bd-addon-header{
+	background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* BETTER DISCORD SETTINGS */
+
+								/*  CUSTOM EDITS  */
+
+/* Voice connected background */
+.container-3baos1 > .flex-1O1GKY, .container-1giJp5 > .flex-1O1GKY {  
+	background: none;
+}               
+
+/* Plugins updates notification */
+.notice-3bPHh-.noticeWrapper-8z511t{
+	border-radius: 8px !important;
+	margin-bottom: 5px;
+}
+/* Nitro page background*/
+.scroller-9moviB.auto-Ge5KZx.scrollerBase-289Jih{
+	background: var(--panels-opacity);
+	border-radius: 10px;
+}
+
+
+foreignObject[mask] {   /* Members list + servers list + popup + modal */
+	mask: url();
+    -webkit-border-radius: 20%;
+    border-radius: 20%;
+}
+
+.avatar-1BDn8e, .avatar-3bWpYy, .avatar-3tNQiO.avatarSmall-1PJoGO{  /* Squared avatars */
+	border-radius: 15% !important;
+}
+
+ 
+/* user live tag */
+.live-vBWnV6 {   
+	 border-radius: 5%;
+ }    
+
+/* Background call */
+.wrapper-2qzCYF.noChat-18KtBD.video--KPXCT, .scroller-11cdZM.thin-1ybCId.scrollerBase-289Jih{
+	background: var(--panels-opacity);
+	border-radius: 10px;
+}
+/* in call user on hover */
+.tile-kezkfV:hover{
+	transform: scale(0.95);
+}
+
+ /* Animation :  friendslist SELECTED + /command selected */
+.layout-2DM8Md:after, .selectorSelected-1_M1WV {
+    background: linear-gradient(50deg, var(--main-color), white, var(--main-color)) !important;
+    background-size: 600% 600% !important;
+
+    animation: gradientAnimation 2s ease infinite !important;
+}
+
+@keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+/* Loading */
+.wanderingCubesItem-WPXqao:first-child {
+	background-image: url(https://i.pinimg.com/originals/b8/38/ed/b838ed9eead6ce4b448bc020883ec881.gif);
+	background-size: auto ;
+ 	background-position: center ;
+}
+.wanderingCubesItem-WPXqao:last-child, .wanderingCubesItem-WPXqao:before, .wanderingCubesItem-WPXqao:after {
+	display: none;
+}
+
+.inner-1gJC7_ {
+	height: 300px;
+	width: 500px;
+}
+
+div[aria-label*="Pinned Messages"]>.messagesPopoutWrap-1MQ1bW, div[aria-label*="Recent Mentions"] {  /* Pinned messages + Mentions + */
+	border-radius: 15px ; 
+}
+
+div[aria-label*="Pinned Messages"] > div > .header-ykumBX {  /* Pinned messages header */
+	background: var(--main-color);
+	text-align: center;
+}
+
+/* Server List Shading   Credits to PieterVMB#1998 */
+.wrapper-21YSNc .expandedFolderBackground-2sPsd- {
+    background: rgba(0,0,0,0.3);
+}
+/* Remove comments if you want icons background transparent */
+/*  
+.icon-27yU2q {
+    background-color: transparent;
+}*/
+.expandedFolderBackground-2sPsd- {
+    bottom: 0px;
+}
+
+/*                    PANELS                        */
+
+.app,
+.app-2rEoOp {
+	margin: 25px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+/* Background */
+.app-1q1i1E{
+	background: var(--background-image) ;
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+}
+
+.layer-3QrUeG[aria-label="USER_SETTINGS"], .layer-3QrUeG[aria-label="GUILD_SETTINGS"], .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"] {   /* Background for user & guild settings */
+	background: var(--panels-opacity);
+}
+
+.container-3gCOGc,
+#friends,
+.activityFeed-28jde9,
+.gameLibrary-TTDw4Y,
+.applicationStore-1pNvnv,
+.chat-3bRxxu {
+	border-radius: 10px ;
+}
+
+/*   Notice ((top messages)   */
+.noticeDefault-362Ko2{
+	margin-bottom: 10px;
+}
+
+.root-217Brm, .wrapper-2qzCYF {  /* Private in call chat */ 
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+.title-3qD0b-.container-1r6BKw {  /* Bar over chat */
+    border-radius: 15px;
+    margin-bottom: 10px;
+	background:var(--panels-opacity) !important;
+}
+
+.newMessagesBar-mujexs {       /* New message notification */
+    transition: all .15s ease-in-out;
+    margin-top: 20px;
+}
+
+.wrapper-1Rf91z, .guilds-1SWlCJ {
+	background: transparent !important;
+	border: 0 !important;
+	box-shadow: 0 0	 !important;
+}
+.sidebar-2K8pFh, .sidebar-2K8pFh.hasNotice-1XRy4h {   /* Channels list */
+ 	border-radius: 10px !important;
+ 	margin-right: 20px;
+ 	/*margin-left: 10px;   // REMOVE COMMENTS IF YOU USE   HorizontalServerList */
+    background: transparent !important;
+}
+
+
+.container-3w7J-x, .privateChannels-1nO12o, .container-1giJp5, .activityPanel-28dQGo.panel-24C3ux, .listeningAlong-30wH70 {	 /* Channels + friends list panel, Voice connected panel, Open game panel */
+ 	background: var(--panels-opacity) !important;
+	margin-bottom: 10px;
+	border-radius: 10px;
+
+}
+
+.withTimeline-824fT_.container-6sXIoE {   /* Spotify Controls */      	/*  Works only if SPOTIFY CONTROLS Plugin is installed */
+ 	background: var(--panels-opacity) ;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border: 0px;
+}
+
+.container-3baos1 {       /* User controls */
+ 	background: var(--panels-opacity);
+	margin-bottom: 0px;
+	border-radius: 10px;
+	padding-bottom: 5px;
+}
+
+.container-3baos1::before, .container-3baos1::after{    /* ClearVision watermark under user controls */
+	margin-bottom: 10px;
+}
+
+ /*   Chat   */
+.chatContent-a9vAAp {
+ 	border-radius: 10px !important;
+ 	background: var(--panels-opacity) !important;
+ }
+ /*   Members list  Auto-hide, Show on hover   */
+		/* Member list TAG */  
+/*
+ .membersWrap-2h-GB4:before {    			
+    content: 'Member List';
+    color: #fff;
+    line-height: 20px;
+    width: 105px;
+    height: 20px;
+    background-color: var(--main-color);
+    position: absolute;
+    text-align: center;
+    white-space: pre-wrap;
+    left: -65px;
+    top: 75px;
+    border-radius: 3px;
+    transform: rotate(270deg);
+    transition: 0.3s all ease-in;
+    font-weight: bold;
+}
+
+.membersWrap-2h-GB4:hover:before {
+    background-color: var(--hover-color);
+    margin-left: 4px;
+    transition: 0.3s all ease-out;
+}
+
+*/
+.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > div > h2{
+	visibility: hidden;
+	padding: 0px;
+	height: 0px;
+    transition: all .3s ease-out;
+}
+
+.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2:hover > div > h2{
+	visibility: visible;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    transition: all .3s ease-in;
+    opacity: .85;
+	height: 40px;
+	padding-left: 16px;
+	padding-right: 8px;
+}
+
+.membersWrap-2h-GB4 {
+    left: 181px ;
+    margin-left: -175px;
+    transition: .3s all ease-in;
+    background: var(--panels-opacity);
+ 	border-radius: 10px !important;
+}
+.members-1998pB {
+	border-radius: 10px;
+}
+
+/* NO chat resize*/
+.membersWrap-2h-GB4:hover{
+    left: 0;
+ 	border-radius: 10px !important;
+    transition: 0.3s all ease-out;
+	background: rgba(0, 0, 0 , 0.9);
+}
+/* with Chat resize NO "chat over"
+.membersWrap-2h-GB4:hover{
+    left: 0;
+	margin-left:10px;
+ 	border-radius: 10px !important;
+    transition: 0.3s all ease-out;
+}
+*/
+.iconWrapper-2OrFZ1[aria-label="Member List"] {		/* Hide members button */
+	display: none;
+}
+
+/*   Search results   */
+.searchResultsWrap-3-pOjs {
+	border-radius: 10px;
+	margin-left: 20px;
+}
+/*   Friends list top bar   */
+.container-1r6BKw.themed-ANHk51 {
+ 	border-radius: 10px !important;
+ 	background: var(--panels-opacity);
+ 	margin-bottom: 10px;
+}
+
+/*   Friends   */
+.peopleColumn-29fq28 {
+ 	border-radius: 10px !important;
+ 	background: var(--panels-opacity);
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+ 	margin-right: 10px;
+}
+
+/*   Friends playing now   */
+.nowPlayingColumn-2sl4cE {
+ 	border-radius: 10px !important;
+ 	background: var(--panels-opacity);
+ 	background-size: cover ;
+ 	background-position: center ;
+ 	background-attachment: fixed ;
+}
+
+.inner-1ilYF7 {
+	border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.3);
+}
+
+.bd-scroller-wrap.bd-description-wrap.bda-description-wrap.scroller-wrap.fade{
+	color: white ;
+}
+
+
+/* Better RTC Connection popout */
+#popout_1591 div div header {
+	border-radius: 15px 15px 0 0 !important;
+}
+#popout_1591 div div section {
+	border-radius: 0 0 15px 15px !important;
+}
+.container-2x5lvQ {
+     width: 240px;
+     box-shadow: none;
+}
+.container-2x5lvQ>section {
+	background: rgba(0, 0, 0, 0.9) !important;
+}
+.container-2x5lvQ section p:nth-of-type(1) {
+     font-size: 0;
+}
+.container-2x5lvQ section p:nth-of-type(2) {
+     display: none;
+}
+.container-2x5lvQ section strong {
+     font-size: 14px;
+     white-space: pre;
+}
+.container-2x5lvQ section strong::before {
+     font-weight: normal;
+}
+.container-2x5lvQ section strong:nth-of-type(1)::before {
+     content: 'Server: ';
+}
+.container-2x5lvQ section strong:nth-of-type(2)::before {
+     content: 'Average Ping: ';
+}
+.container-2x5lvQ section strong:nth-of-type(3)::before {
+     content: ' Last Ping: ';
+}
+.container-2x5lvQ section strong:nth-of-type(4)::before {
+     content: 'Packet Loss: ';
+}
