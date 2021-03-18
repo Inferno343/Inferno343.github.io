@@ -2,3 +2,10 @@
 button[aria-label="Send a gift"], .channel-2QD9_O[href="/store"] {
 	display: none;
 }
+
+
+/* Codeblocks plugin css */
+.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs {
+	background: var(--panels-opacity) !important;
+	border-radius: 10px;
+}
