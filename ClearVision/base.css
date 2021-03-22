@@ -140,10 +140,14 @@ div[aria-label*="Pinned Messages"] > div > .header-ykumBX {  /* Pinned messages 
 	margin-bottom: 10px;
 }
 
+.wrapper-2qzCYF.minimum-28Z35l{ /* Private in call background */
+	background: var(--panels-opacity);
+}
 .root-217Brm, .wrapper-2qzCYF {  /* Private in call chat */ 
 	border-radius: 15px;
 	margin-bottom: 10px;
 }
+
 .title-3qD0b-.container-1r6BKw {  /* Bar over chat */
     border-radius: 15px;
     margin-bottom: 10px;
@@ -175,11 +179,15 @@ div[aria-label*="Pinned Messages"] > div > .header-ykumBX {  /* Pinned messages 
 
 }
 
+
 .withTimeline-824fT_.container-6sXIoE {   /* Spotify Controls */      	/*  Works only if SPOTIFY CONTROLS Plugin is installed */
  	background: var(--panels-opacity) ;
 	border-radius: 10px;
 	margin-bottom: 10px;
 	border: 0px;
+}
+.cover-SwJ-ck, .container-6sXIoE{
+	border-radius: 10px 10px 0 0
 }
 
 .container-3baos1 {       /* User controls */
