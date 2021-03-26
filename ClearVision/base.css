@@ -94,9 +94,11 @@ div[aria-label*="Pinned Messages"] > div > .header-ykumBX {  /* Pinned messages 
 }
 
 /* Server List Shading   Credits to PieterVMB#1998 */
-.wrapper-21YSNc .expandedFolderBackground-2sPsd- {
+.guilds-1SWlCJ [class*=expandedFolderBackground] {
     background: rgba(0,0,0,0.3);
+    bottom: 0px;
 }
+
 /* Remove comments if you want icons background transparent */
 /*  
 .icon-27yU2q {
