@@ -6,7 +6,7 @@ var splitText = text.split('')
 let pointer = 0;
 console.log(splitText)
 
-setInterval(animateTitle, 500)
+setInterval(animateTitle, 300)
 
 function animateTitle() {
   if (title.innerHTML.length == splitText.length) {
