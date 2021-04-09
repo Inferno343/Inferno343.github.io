@@ -36,7 +36,7 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 }
 
 .avatar-1BDn8e, .avatar-3bWpYy, .avatar-3tNQiO.avatarSmall-1PJoGO{  /* Squared avatars */
-	border-radius: 15% !important;
+	border-radius: var(--avatar-roundness) !important;
 }
 
  
@@ -46,7 +46,7 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
  }    
 
 /* Background call */
-.wrapper-2qzCYF.noChat-18KtBD.video--KPXCT, .scroller-11cdZM.thin-1ybCId.scrollerBase-289Jih{
+.wrapper-2qzCYF.noChat-18KtBD.video--KPXCT, .scroller-11cdZM.thin-1ybCId.scrollerBase-289Jih, .wrapper-2qzCYF.fullScreen-1tMzXY.video--KPXCT{
 	background: var(--panels-opacity);
 	border-radius: 10px;
 }
@@ -71,7 +71,7 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 
 /* Loading */
 .wanderingCubesItem-WPXqao:first-child {
-	background-image: url(https://i.pinimg.com/originals/b8/38/ed/b838ed9eead6ce4b448bc020883ec881.gif);
+	background-image: var(--loading-gif);
 	background-size: auto ;
  	background-position: center ;
 }
@@ -112,7 +112,7 @@ div[aria-label*="Pinned Messages"] > div > .header-ykumBX {  /* Pinned messages 
 
 .app,
 .app-2rEoOp {
-	margin: 25px;
+	margin: var(--general-margin);
 	border-radius: 6px;
 	overflow: hidden;
 }
@@ -126,6 +126,12 @@ div[aria-label*="Pinned Messages"] > div > .header-ykumBX {  /* Pinned messages 
 
 .layer-3QrUeG[aria-label="USER_SETTINGS"], .layer-3QrUeG[aria-label="GUILD_SETTINGS"], .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"] {   /* Background for user & guild settings */
 	background: var(--panels-opacity);
+}
+
+/* Library & library settings background */
+.container-19hC9u.scroller-1IIF0A.stickyScroller-24zUyY.auto-Ge5KZx.scrollerBase-289Jih,
+.scroller-2XE8rp.auto-Ge5KZx.scrollerBase-289Jih {
+	background: var(--panels-opacity)
 }
 
 .container-3gCOGc,
