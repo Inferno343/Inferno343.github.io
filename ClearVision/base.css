@@ -17,6 +17,13 @@
 	background: none;
 }               
 
+/* server donate nitro */
+.perksModal-fSYqOq.auto-Ge5KZx.scrollerBase-289Jih {
+	background: var(--panels-opacity) !important;
+	margin: var(--general-margin);
+	border-radius: 15px;
+}
+
 /* Plugins updates notification */
 .notice-3bPHh-.noticeWrapper-8z511t{
 	border-radius: 8px !important;
