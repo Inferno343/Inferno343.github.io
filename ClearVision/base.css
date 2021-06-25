@@ -28,6 +28,7 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 .sidebar-2K8pFh {
 	margin-right: var(--between-panels-margin);
 	background: transparent;
+	border-radius: var(--panels-radius);
 }
 
 /* Channels list */
