@@ -61,6 +61,9 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 /* --------------------------- CHAT CONTAINER --------------------------- */
 
 /* top bar */
+.chat-3bRxxu {
+	borde-radius: var(--panels-radius);
+}
 .chat-3bRxxu > section {
 	margin-bottom: var(--between-panels-margin);
 	border-radius: var(--panels-radius);
@@ -71,6 +74,11 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 	background-color: transparent;
 }
 
+/* NSFW confirm menu */
+.scroller-11cdZM {
+	background: var(--panels-opacity);
+	border-radius: var(--panels-radius);
+}
 /* chat */
 .chatContent-a9vAAp >  .messagesWrapper-1sRNjr {
 	margin-bottom: 10px;
@@ -154,6 +162,9 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 }
 
 /* top bar */
+.base-3dtUhz .container-1r6BKw {
+	box-shadow: none;
+}
 .container-1r6BKw {
 	margin-bottom: var(--between-panels-margin);
 	background: var(--panels-opacity);
