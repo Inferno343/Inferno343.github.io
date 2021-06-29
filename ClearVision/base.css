@@ -25,9 +25,10 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 }
 /* --------------------------- SIDEBAR --------------------------- */
 /* Main container */
-.sidebar-2K8pFh {
+#app-mount .sidebar-2K8pFh, .sidebar-2K8pFh {
 	margin-right: var(--between-panels-margin);
 	background: transparent;
+	border-radius: var(--panels-radius);
 }
 
 /* Channels list */
