@@ -107,45 +107,49 @@ foreignObject[mask] {   /* Members list + servers list + popup + modal */
 	border-radius: var(--panels-radius);
 }
 
-@media screen and (max-width:1080px){
-	.membersWrap-2h-GB4 {
-	  left: 160px;
-	  margin-left: -150px;
-	  transition: all .3s ease-in;
-	  width: 60px;
-	  border-radius: var(--panels-radius);
+@media screen and (max-width: 1080px){
+
+	/* HIDE ROLE NAMES */
+	.membersWrap-2h-GB4 > .members-1998pB > .content-3YMskv > .membersGroup-v9BXpm.container-2ax-kl {
+		visibility: hidden;
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		height: 0px;
+		transition: all .3s ease-in;
+	}
+
+	/* SHOW ROLE NAMES ON HOVER */
+	.membersWrap-2h-GB4:hover > .members-1998pB > .content-3YMskv > .membersGroup-v9BXpm.container-2ax-kl {
+		visibility: visible;
+		padding-top: 20px;
+		padding-left: 16px;
+		padding-right: 8px;
+		height: 40px;
+		transition: all .3s ease-in;
+	}
+
+	/* HIDE USER NAMES */
+	.membersWrap-2h-GB4 > .members-1998pB > .content-3YMskv > .member-3-YXUe.container-2Pjhx- > .layout-2DM8Md  {
+		width: 0;
+		transition: all .3s ease-in;
+	}
+
+	/* SHOW USER NAMES ON HOVER*/ 
+	.membersWrap-2h-GB4:hover > .members-1998pB > .content-3YMskv > .member-3-YXUe.container-2Pjhx- > .layout-2DM8Md  {
+		width: 210px;
+		transition: all .2s ease-in;
 	}
 
 	.membersWrap-2h-GB4 > .members-1998pB {
-		left: -80px;
-		width: 60px !important;
-		transition: all .4s ease-in;
-	}
-	.membersWrap-2h-GB4:hover > .members-1998pB {
-		width: var(--members-width) !important;
-		transition: all .2s ease-out;
-		left: 0px;
+		width: 65px;
+		transition: all .3s ease-in;
 	}
 
-	.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > div > h2{
-		visibility: hidden;
-		padding: 0px;
-		height: 0px;
-		transition: all .25s ease-out;
-	}
 	
-	.members-1998pB.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2:hover > div > h2{
-		visibility: visible;
-		padding-top: 20px;
-		height: 40px;
-		transition: all .25s ease-in;
-	}
-
-	.membersWrap-2h-GB4:hover {
-		background: rgba(0, 0, 0, 0.75);
-		left: 0;
-		transition: all .3s ease-out;
-		border-radius: var(--panels-radius);
+	.membersWrap-2h-GB4:hover > .members-1998pB {
+		width: 210px;
+		transition: all .2s ease-in;
 	}
 }
 
